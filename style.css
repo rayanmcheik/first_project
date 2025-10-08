@@ -13,7 +13,7 @@ header {
 }
 
 
-.header-container{
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -186,7 +186,7 @@ footer p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
     font-size: 32px;
     text-align: center;
 }
