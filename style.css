@@ -12,6 +12,9 @@ header {
     padding: 15px 30px;
 }
 
+main {
+    min-height: 100vh;
+}
 
 .header-container {
     display: flex;
@@ -121,10 +124,8 @@ header {
     border-radius: 100%;
 }
 
-
-
 main {
-    display: flex;
+
     flex-direction: column;
 }
 
@@ -267,13 +268,20 @@ footer {
     transform: scale(1.2);
 }
 
-.icons2 input {
-    width: 90%;
+.sub-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
 }
 
-.icons2 button {
+.sub-div input {
+    width: 75%;
+}
+
+.sub-div button {
     background-color: blue;
-    width: 100%;
+    width: 25%;
     height: 30px;
 }
 
@@ -289,7 +297,7 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 
 }
 
@@ -362,6 +370,7 @@ footer {
     font-size: 24px;
     margin-bottom: 20px;
     color: #222;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .contact-form {
